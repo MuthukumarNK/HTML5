@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Inline Styles</title>
+</head>
+<body style="background-color:darkseagreen;">
+    <h1 style="text-align: center;color:red;background-color: blueviolet;font-family: fantasy;">Student information</h1>
+    <hr>
+    <table border="1" cellpadding="20" cellspacing="5"> 
+        <tr bgcolor="darkgreen">
+            <th>Roll No</th>
+            <th>Student Name</th>
+            <th>Course</th>
+            <th>University</th>
+        </tr>
+        <tr align="center">
+            <td>1001</td>
+            <td>James Gosling</td>
+            <td>BTech</td>
+            <td>IP University</td>
+        </tr>
+        <tr align="center">
+            <td>1002</td>
+            <td>Rod Johnson</td>
+            <td>MTech</td>
+            <td>Kurushetra University</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <hr color="red" size="1"/>
+    <h1 style="text-align: center;font-family: monospace;letter-spacing: 5px;color: whitesmoke;">Employee information</h1>
+    <table border="2" cellpadding="20" cellspacing="20">
+        <tr bgcolor="yellow" align="center">
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th colspan="2">Technologies</th>
+        </tr>
+        <tr align="center">
+            <td>1001</td>
+            <td>Mark John</td>
+            <td colspan="2">Spring Framework</td>
+        </tr>
+        <tr align="center">
+            <td>1002</td>
+            <td>Mary</td>
+            <td colspan="2">Angular</td>
+        </tr>
+        <tr align="center">
+            <td>1003</td>
+            <td>Arun Kumar</td>
+            <td>Angular</td>
+            <td>React</td>
+        </tr>
+        <tr align="center">
+            <td>1004</td>
+            <td>Navin Kumar</td>
+            <td colspan="2">HTML5</td>
+        </tr>
+        <tr align="center" bgcolor="khaki">
+            <td>1005</td>
+            <td>Harris George</td>
+            <td>JDBC</td>
+            <td>Hibernate</td>
+        </tr> 
+        <tr align="center">
+            <td rowspan="2">1006</td>
+            <td rowspan="2">Mike</td>
+            <td colspan="2">GIT</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">Jenkins</td>
+        </tr>
+    </table>
+
+    <!--
+        Colspan - Merging of Coloumns
+        RowSpan - Merging of Rows
+    -->
+
+</body>
+</html>

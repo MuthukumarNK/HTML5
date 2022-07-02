@@ -1,0 +1,12 @@
+/*This is an External Style sheet*/
+
+body
+{
+    background-color: skyblue;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{color: darkorange;}
+
+p{color: blue;}
